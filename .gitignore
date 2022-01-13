@@ -1,8 +1,5 @@
-database/raw/*.csv
 others/
-airflow/logs/
 airflow/dags/__pycache__/
 files/datalake/.minio.sys/
 files/datalake/processing/
 files/datalake/landing/
-jupyter/.ipynb_checkpoints/
