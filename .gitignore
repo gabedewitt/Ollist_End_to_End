@@ -1,5 +1,3 @@
 others/
 airflow/dags/__pycache__/
 files/datalake/.minio.sys/
-files/datalake/processing/
-files/datalake/landing/
