@@ -1,0 +1,238 @@
+[2022-01-08 23:50:59,851] {scheduler_job.py:182} INFO - Started process (PID=81) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:50:59,855] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:50:59,860] {logging_mixin.py:104} INFO - [2022-01-08 23:50:59,860] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:51:01,470] {logging_mixin.py:104} INFO - [2022-01-08 23:51:01,461] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:51:01,478] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:51:01,501] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.655 seconds
+[2022-01-08 23:51:44,490] {scheduler_job.py:182} INFO - Started process (PID=151) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:51:44,496] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:51:44,499] {logging_mixin.py:104} INFO - [2022-01-08 23:51:44,499] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:51:45,944] {logging_mixin.py:104} INFO - [2022-01-08 23:51:45,937] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:51:45,947] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:51:45,979] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.498 seconds
+[2022-01-08 23:52:16,213] {scheduler_job.py:182} INFO - Started process (PID=191) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:52:16,217] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:52:16,219] {logging_mixin.py:104} INFO - [2022-01-08 23:52:16,219] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:52:17,618] {logging_mixin.py:104} INFO - [2022-01-08 23:52:17,613] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:52:17,621] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:52:17,640] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.432 seconds
+[2022-01-08 23:52:48,402] {scheduler_job.py:182} INFO - Started process (PID=231) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:52:48,406] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:52:48,408] {logging_mixin.py:104} INFO - [2022-01-08 23:52:48,408] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:52:49,779] {logging_mixin.py:104} INFO - [2022-01-08 23:52:49,774] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:52:49,782] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:52:49,800] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.403 seconds
+[2022-01-08 23:53:20,450] {scheduler_job.py:182} INFO - Started process (PID=271) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:53:20,455] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:53:20,457] {logging_mixin.py:104} INFO - [2022-01-08 23:53:20,456] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:53:21,865] {logging_mixin.py:104} INFO - [2022-01-08 23:53:21,860] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:53:21,869] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:53:21,888] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.442 seconds
+[2022-01-08 23:53:53,133] {scheduler_job.py:182} INFO - Started process (PID=311) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:53:53,137] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:53:53,139] {logging_mixin.py:104} INFO - [2022-01-08 23:53:53,139] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:53:54,571] {logging_mixin.py:104} INFO - [2022-01-08 23:53:54,565] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:53:54,575] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:53:54,594] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.465 seconds
+[2022-01-08 23:54:25,369] {scheduler_job.py:182} INFO - Started process (PID=351) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:54:25,373] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:54:25,375] {logging_mixin.py:104} INFO - [2022-01-08 23:54:25,375] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:54:26,849] {logging_mixin.py:104} INFO - [2022-01-08 23:54:26,844] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:54:26,852] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:54:26,873] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.509 seconds
+[2022-01-08 23:54:57,923] {scheduler_job.py:182} INFO - Started process (PID=391) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:54:57,927] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:54:57,930] {logging_mixin.py:104} INFO - [2022-01-08 23:54:57,930] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:55:00,114] {logging_mixin.py:104} INFO - [2022-01-08 23:55:00,100] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:55:00,119] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:55:00,156] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 2.237 seconds
+[2022-01-08 23:55:30,810] {scheduler_job.py:182} INFO - Started process (PID=431) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:55:30,816] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:55:30,819] {logging_mixin.py:104} INFO - [2022-01-08 23:55:30,819] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:55:32,247] {logging_mixin.py:104} INFO - [2022-01-08 23:55:32,242] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:55:32,251] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:55:32,270] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.468 seconds
+[2022-01-08 23:56:02,993] {scheduler_job.py:182} INFO - Started process (PID=471) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:56:03,002] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:56:03,006] {logging_mixin.py:104} INFO - [2022-01-08 23:56:03,005] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:56:04,471] {logging_mixin.py:104} INFO - [2022-01-08 23:56:04,466] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:56:04,475] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:56:04,494] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.511 seconds
+[2022-01-08 23:56:35,576] {scheduler_job.py:182} INFO - Started process (PID=511) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:56:35,582] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:56:35,586] {logging_mixin.py:104} INFO - [2022-01-08 23:56:35,585] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:56:37,077] {logging_mixin.py:104} INFO - [2022-01-08 23:56:37,072] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:56:37,080] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:56:37,101] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.533 seconds
+[2022-01-08 23:57:07,610] {scheduler_job.py:182} INFO - Started process (PID=551) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:57:07,617] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:57:07,620] {logging_mixin.py:104} INFO - [2022-01-08 23:57:07,620] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:57:09,128] {logging_mixin.py:104} INFO - [2022-01-08 23:57:09,122] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:57:09,134] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:57:09,155] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.554 seconds
+[2022-01-08 23:57:39,829] {scheduler_job.py:182} INFO - Started process (PID=591) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:57:39,838] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:57:39,842] {logging_mixin.py:104} INFO - [2022-01-08 23:57:39,842] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:57:42,209] {logging_mixin.py:104} INFO - [2022-01-08 23:57:42,196] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:57:42,218] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:57:42,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 2.470 seconds
+[2022-01-08 23:58:13,315] {scheduler_job.py:182} INFO - Started process (PID=631) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:58:13,322] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:58:13,326] {logging_mixin.py:104} INFO - [2022-01-08 23:58:13,326] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:58:15,032] {logging_mixin.py:104} INFO - [2022-01-08 23:58:15,019] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:58:15,041] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:58:15,078] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.771 seconds
+[2022-01-08 23:58:45,286] {scheduler_job.py:182} INFO - Started process (PID=671) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:58:45,293] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:58:45,299] {logging_mixin.py:104} INFO - [2022-01-08 23:58:45,298] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:58:46,820] {logging_mixin.py:104} INFO - [2022-01-08 23:58:46,815] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:58:46,825] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:58:46,849] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.574 seconds
+[2022-01-08 23:59:17,168] {scheduler_job.py:182} INFO - Started process (PID=711) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:59:17,175] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:59:17,181] {logging_mixin.py:104} INFO - [2022-01-08 23:59:17,181] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:59:18,970] {logging_mixin.py:104} INFO - [2022-01-08 23:59:18,964] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:59:18,975] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:59:18,996] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.836 seconds
+[2022-01-08 23:59:49,380] {scheduler_job.py:182} INFO - Started process (PID=751) to work on /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:59:49,385] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_geolocation_dataset.py for tasks to queue
+[2022-01-08 23:59:49,389] {logging_mixin.py:104} INFO - [2022-01-08 23:59:49,389] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:59:50,969] {logging_mixin.py:104} INFO - [2022-01-08 23:59:50,963] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_geolocation_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:59:50,973] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_geolocation_dataset.py
+[2022-01-08 23:59:50,997] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_geolocation_dataset.py took 1.622 seconds

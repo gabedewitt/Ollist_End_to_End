@@ -1,0 +1,238 @@
+[2022-01-08 23:50:51,537] {scheduler_job.py:182} INFO - Started process (PID=66) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:50:51,541] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:50:51,544] {logging_mixin.py:104} INFO - [2022-01-08 23:50:51,543] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:50:53,175] {logging_mixin.py:104} INFO - [2022-01-08 23:50:53,170] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:50:53,179] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:50:53,199] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.667 seconds
+[2022-01-08 23:51:33,095] {scheduler_job.py:182} INFO - Started process (PID=136) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:51:33,107] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:51:33,111] {logging_mixin.py:104} INFO - [2022-01-08 23:51:33,110] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:51:35,857] {logging_mixin.py:104} INFO - [2022-01-08 23:51:35,851] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:51:35,867] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:51:35,902] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 2.814 seconds
+[2022-01-08 23:52:07,094] {scheduler_job.py:182} INFO - Started process (PID=176) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:52:07,099] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:52:07,103] {logging_mixin.py:104} INFO - [2022-01-08 23:52:07,103] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:52:08,495] {logging_mixin.py:104} INFO - [2022-01-08 23:52:08,490] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:52:08,499] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:52:08,517] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.432 seconds
+[2022-01-08 23:52:39,110] {scheduler_job.py:182} INFO - Started process (PID=216) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:52:39,115] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:52:39,118] {logging_mixin.py:104} INFO - [2022-01-08 23:52:39,118] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:52:40,509] {logging_mixin.py:104} INFO - [2022-01-08 23:52:40,504] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:52:40,512] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:52:40,532] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.430 seconds
+[2022-01-08 23:53:11,157] {scheduler_job.py:182} INFO - Started process (PID=256) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:53:11,162] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:53:11,165] {logging_mixin.py:104} INFO - [2022-01-08 23:53:11,165] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:53:12,569] {logging_mixin.py:104} INFO - [2022-01-08 23:53:12,563] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:53:12,572] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:53:12,590] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.441 seconds
+[2022-01-08 23:53:43,080] {scheduler_job.py:182} INFO - Started process (PID=296) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:53:43,087] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:53:43,092] {logging_mixin.py:104} INFO - [2022-01-08 23:53:43,091] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:53:44,890] {logging_mixin.py:104} INFO - [2022-01-08 23:53:44,879] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:53:44,897] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:53:44,921] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.853 seconds
+[2022-01-08 23:54:15,751] {scheduler_job.py:182} INFO - Started process (PID=336) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:54:15,757] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:54:15,762] {logging_mixin.py:104} INFO - [2022-01-08 23:54:15,762] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:54:17,246] {logging_mixin.py:104} INFO - [2022-01-08 23:54:17,240] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:54:17,249] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:54:17,269] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.528 seconds
+[2022-01-08 23:54:48,172] {scheduler_job.py:182} INFO - Started process (PID=376) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:54:48,180] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:54:48,183] {logging_mixin.py:104} INFO - [2022-01-08 23:54:48,183] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:54:49,770] {logging_mixin.py:104} INFO - [2022-01-08 23:54:49,760] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:54:49,774] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:54:49,794] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.638 seconds
+[2022-01-08 23:55:20,178] {scheduler_job.py:182} INFO - Started process (PID=416) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:55:20,184] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:55:20,187] {logging_mixin.py:104} INFO - [2022-01-08 23:55:20,187] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:55:21,653] {logging_mixin.py:104} INFO - [2022-01-08 23:55:21,648] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:55:21,658] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:55:21,679] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.510 seconds
+[2022-01-08 23:55:52,577] {scheduler_job.py:182} INFO - Started process (PID=456) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:55:52,584] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:55:52,587] {logging_mixin.py:104} INFO - [2022-01-08 23:55:52,587] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:55:53,992] {logging_mixin.py:104} INFO - [2022-01-08 23:55:53,987] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:55:53,996] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:55:54,013] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.446 seconds
+[2022-01-08 23:56:24,851] {scheduler_job.py:182} INFO - Started process (PID=496) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:56:24,855] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:56:24,858] {logging_mixin.py:104} INFO - [2022-01-08 23:56:24,858] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:56:26,415] {logging_mixin.py:104} INFO - [2022-01-08 23:56:26,409] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:56:26,418] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:56:26,438] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.597 seconds
+[2022-01-08 23:56:56,952] {scheduler_job.py:182} INFO - Started process (PID=536) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:56:56,958] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:56:56,961] {logging_mixin.py:104} INFO - [2022-01-08 23:56:56,961] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:56:58,585] {logging_mixin.py:104} INFO - [2022-01-08 23:56:58,579] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:56:58,590] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:56:58,610] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.672 seconds
+[2022-01-08 23:57:29,080] {scheduler_job.py:182} INFO - Started process (PID=576) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:57:29,087] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:57:29,091] {logging_mixin.py:104} INFO - [2022-01-08 23:57:29,090] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:57:30,579] {logging_mixin.py:104} INFO - [2022-01-08 23:57:30,573] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:57:30,584] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:57:30,608] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.537 seconds
+[2022-01-08 23:58:01,573] {scheduler_job.py:182} INFO - Started process (PID=616) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:58:01,579] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:58:01,583] {logging_mixin.py:104} INFO - [2022-01-08 23:58:01,582] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:58:03,020] {logging_mixin.py:104} INFO - [2022-01-08 23:58:03,014] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:58:03,024] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:58:03,044] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.480 seconds
+[2022-01-08 23:58:33,439] {scheduler_job.py:182} INFO - Started process (PID=656) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:58:33,443] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:58:33,446] {logging_mixin.py:104} INFO - [2022-01-08 23:58:33,445] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:58:34,949] {logging_mixin.py:104} INFO - [2022-01-08 23:58:34,942] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:58:34,954] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:58:34,973] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.542 seconds
+[2022-01-08 23:59:06,210] {scheduler_job.py:182} INFO - Started process (PID=696) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:59:06,214] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:59:06,216] {logging_mixin.py:104} INFO - [2022-01-08 23:59:06,216] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:59:07,715] {logging_mixin.py:104} INFO - [2022-01-08 23:59:07,709] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:59:07,718] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:59:07,737] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.533 seconds
+[2022-01-08 23:59:38,992] {scheduler_job.py:182} INFO - Started process (PID=736) to work on /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:59:38,997] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/ETL_olist_order_reviews_dataset.py for tasks to queue
+[2022-01-08 23:59:38,999] {logging_mixin.py:104} INFO - [2022-01-08 23:59:38,999] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:59:40,678] {logging_mixin.py:104} INFO - [2022-01-08 23:59:40,672] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_olist_order_reviews_dataset.py", line 5, in <module>
+    from minio import Minio
+ModuleNotFoundError: No module named 'minio'
+[2022-01-08 23:59:40,682] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_olist_order_reviews_dataset.py
+[2022-01-08 23:59:40,705] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/ETL_olist_order_reviews_dataset.py took 1.721 seconds

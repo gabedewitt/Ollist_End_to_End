@@ -1,11 +1,12 @@
-database/raw/*.csv
 others/
-airflow/logs/
 airflow/dags/__pycache__/
 files/datalake/.minio.sys/
+<<<<<<< HEAD
 files/datalake/processing/
 files/datalake/landing/
 jupyter/.ipynb_checkpoints/
 src/__pycache__
 src/.ipynb_checkpoints
 .ipynb_checkpoints
+=======
+>>>>>>> 8d2d6a464b123338c2edf8ab21f934b3f1e0a126
