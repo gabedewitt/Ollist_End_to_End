@@ -6,3 +6,6 @@ files/datalake/.minio.sys/
 files/datalake/processing/
 files/datalake/landing/
 jupyter/.ipynb_checkpoints/
+src/__pycache__
+src/.ipynb_checkpoints
+.ipynb_checkpoints
