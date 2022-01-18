@@ -5,10 +5,11 @@ from airflow.operators.python import PythonOperator
 from minio import Minio
 import os
 import glob
+from functions import var
 
-data_lake_server= '172.17.0.2:9000'
-data_lake_login= 'miniouser'
-data_lake_password= 'miniopwd'
+data_lake_server= var['data_lake_server_airflow']
+data_lake_login= var['data_lake_login']
+data_lake_password= var['data_lake_password']
 
 client = Minio(
         endpoint= data_lake_server,
@@ -18,8 +19,8 @@ client = Minio(
     )
 
 dag = DAG(
-    dag_id="ETL_landing_processing",
-    description="ETL - olist_customers_dataset",
+    dag_id="etl_landing_processing",
+    description="ETL - Landing to Processing",
     start_date=dt.datetime(2021, 11, 29),
     schedule_interval= "@once")
 
