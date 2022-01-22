@@ -8,12 +8,10 @@ var = {
     'data_lake_password': 'miniopwd'
 }
 
-def read_minio_parquet(bucket_name, file, client):
-    return read_parquet(
-        BytesIO(
-            client.get_object(
-                bucket_name= bucket_name,
-                object_name= file
+def read_minio_file(bucket_name, file, client):
+    return BytesIO(
+        client.get_object(
+            bucket_name= bucket_name,
+            object_name= file
             ).read()
-        )
-    )
+            )

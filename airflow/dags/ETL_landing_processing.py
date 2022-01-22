@@ -5,11 +5,11 @@ from airflow.operators.python import PythonOperator
 from minio import Minio
 import os
 import glob
-from functions import var
+import functions as f
 
-data_lake_server= var['data_lake_server_airflow']
-data_lake_login= var['data_lake_login']
-data_lake_password= var['data_lake_password']
+data_lake_server= f.var['data_lake_server_airflow']
+data_lake_login= f.var['data_lake_login']
+data_lake_password= f.var['data_lake_password']
 
 client = Minio(
         endpoint= data_lake_server,
@@ -174,6 +174,36 @@ load_sellers_task = PythonOperator(
     python_callable= load_sellers,
     dag= dag)
 
+##################### olist_geolocation_dataset #####################
+
+def extract_geolocation():
+    # load data to a tmp folder
+    client.fget_object(
+        bucket_name= 'landing',
+        object_name= 'olist_geolocation_dataset.csv',
+        file_path= 'tmp/olist_geolocation_dataset.csv'
+        )
+
+def load_geolocation():
+    temp_df = pd.read_csv('tmp/olist_geolocation_dataset.csv')
+    temp_df.to_parquet('tmp/olist_geolocation_dataset.parquet')
+
+    client.fput_object(
+        bucket_name= 'processing',
+        object_name= 'olist_geolocation_dataset.parquet',
+        file_path= 'tmp/olist_geolocation_dataset.parquet'
+        )
+
+extract_geolocation_task = PythonOperator(
+    task_id= "extract_geolocation", 
+    python_callable= extract_geolocation,
+    dag= dag)
+
+load_geolocation_task = PythonOperator(
+    task_id= "load_geolocation", 
+    python_callable= load_geolocation,
+    dag= dag)
+
 ##################### clean #####################
 
 def clean():
@@ -192,5 +222,6 @@ extract_order_items_task >> load_order_items_task >> clean_task
 extract_orders_task >> load_orders_task >> clean_task
 extract_products_task >> load_products_task >> clean_task
 extract_sellers_task >> load_sellers_task >> clean_task
+extract_geolocation_task >> load_geolocation_task >> clean_task
 
 

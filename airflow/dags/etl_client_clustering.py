@@ -5,11 +5,11 @@ from airflow.operators.python import PythonOperator
 from minio import Minio
 import os
 import glob
-from functions import var
+import functions as f
 
-data_lake_server= var['data_lake_server_airflow']
-data_lake_login= var['data_lake_login']
-data_lake_password= var['data_lake_password']
+data_lake_server= f.var['data_lake_server_airflow']
+data_lake_login= f.var['data_lake_login']
+data_lake_password= f.var['data_lake_password']
 
 client = Minio(
         endpoint= data_lake_server,
@@ -69,11 +69,40 @@ extract_order_items_task = PythonOperator(
     python_callable= extract_order_items,
     dag= dag)
 
+##################### olist_geolocation_dataset #####################
+
+def extract_geolocation():
+    # load data to a tmp folder
+    client.fget_object(
+        bucket_name= 'processing',
+        object_name= 'olist_geolocation_dataset.parquet',
+        file_path= 'tmp/olist_geolocation_dataset.parquet'
+        )
+
+extract_geolocation_task = PythonOperator(
+    task_id= "extract_geolocation", 
+    python_callable= extract_geolocation,
+    dag= dag)
+
 
 def transform_data():
     customers = pd.read_parquet('tmp/olist_customers_dataset.parquet')
     orders = pd.read_parquet('tmp/olist_orders_dataset.parquet')
     order_items = pd.read_parquet('tmp/olist_order_items_dataset.parquet')
+    geolocation = pd.read_parquet('tmp/olist_geolocation_dataset.parquet')
+
+    geo_means = geolocation.groupby(
+        ['geolocation_zip_code_prefix', 'geolocation_city', 'geolocation_state']
+        )[['geolocation_lat', 'geolocation_lng']].mean().reset_index()
+
+    customers = customers.merge(
+        geo_means,
+        left_on= ['customer_zip_code_prefix', 'customer_city', 'customer_state'],
+        right_on= ['geolocation_zip_code_prefix', 'geolocation_city', 'geolocation_state'],
+        how= 'left'
+        ).drop(columns= ['geolocation_zip_code_prefix', 'geolocation_city', 'geolocation_state'])
+
+    del geo_means
 
     price_per_order = order_items.groupby('order_id').price.sum().reset_index().rename(columns= {'price': 'monetary'})
     orders = pd.merge(orders, price_per_order, on= 'order_id', how= 'inner')
@@ -81,24 +110,25 @@ def transform_data():
     ult_compra = orders.order_purchase_timestamp.max()
     orders['days_ult_compra'] = (ult_compra - orders.order_purchase_timestamp).dt.days
 
-    df_rfm = \
-        pd.merge(
-            customers[['customer_unique_id', 'customer_id']],
-            orders[['customer_id', 'monetary', 'days_ult_compra']],
-            on= 'customer_id',
-            how= 'left')\
-                .groupby('customer_unique_id')\
-                    .agg({
-                        'customer_id': 'count',
-                        'monetary': 'sum',
-                        'days_ult_compra': 'min'
-                        }).reset_index()\
-                            .rename(
-                                columns= {
-                                    'customer_id': 'frequency',
-                                    'days_ult_compra': 'recency'
-                                    }
-                                    )
+    df_rfm = pd.merge(
+        customers[['customer_unique_id', 'customer_id', 'geolocation_lat', 'geolocation_lng']],
+        orders[['customer_id', 'monetary', 'days_ult_compra']],
+        on= 'customer_id',
+        how= 'left')\
+            .groupby('customer_unique_id')\
+                .agg({
+                    'geolocation_lat': 'mean',
+                    'geolocation_lng': 'mean',
+                    'customer_id': 'count',
+                    'monetary': 'sum',
+                    'days_ult_compra': 'min'
+                    }).reset_index()\
+                        .rename(
+                            columns= {
+                                'customer_id': 'frequency',
+                                'days_ult_compra': 'recency'
+                                }
+                                )
     
     df_rfm.to_parquet('tmp/dataframe_rfm.parquet')
 
@@ -126,7 +156,7 @@ clean_task = PythonOperator(
     python_callable= clean,
     dag= dag)
 
-[extract_customers_task, extract_order_items_task, extract_orders_task] >> transform_data_task
+[extract_customers_task, extract_order_items_task, extract_orders_task, extract_geolocation_task] >> transform_data_task
 transform_data_task >> clean_task
 
 
