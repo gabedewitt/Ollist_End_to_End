@@ -12,12 +12,23 @@ O olist atua no segmento de e-commerce, mas não é um e-commerce propriamente d
 
 
 
-Perguntas de negócio:
-    - Qual o volume de vendas dentro da nossa plataforma?
-    - Sendo a olist uma empresa que vende o serviço de facilitar o acesso de cliente aos marketplaces é interessante para a empresa ter "pronto" visões que facilite ao vender saber se está indo bem ou mau, logo:
-        - Quanto vendedor vendeu esse mês?
-        - Quais regiões ele mais vende?
-        
+Visão Ollist: (Belmino)
+    - Quais lojistas vendem mais?
+    - Quais lojistas vendem menos?
+    - Média de venda por lojista?
+    - Quantidade de Lojistas inativos (que não fizeram venda)?
+
+Visão Lojista: (Gabriel)
+    - Quantas vendas eu fiz esse mês?
+    - Quanto de dinheiro eu vendi esse mês?
+    - Para onde estou vendendo (estado, cidade)?
+    - Quanto meus clientes estão pagando de frete?
+    - Qual o metodo de pagamento utilizado pelo meus clientes?
+    - Tempo média de entrega dos produtos?
+       
+Modelo de Propensão de Vendas (Rafael)
+
+Concluir Agrupamento de cliente (Belmino)
 
 ## Instruções:
 
