@@ -1,4 +1,4 @@
-# Pipeline do Airflow para análise de dados
+# Pipeline do Airflow para análise de dados e Dashboard
 
 O olist atua no segmento de e-commerce, mas não é um e-commerce propriamente dito. O olist é uma grande loja de departamentos dentro dos marketplaces, formada por milhares de outras lojas espalhadas por todo o Brasil.
 
